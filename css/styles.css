@@ -32,6 +32,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+a.current {
+  color: var(--accent-color);
+}
+
 /* -----HEADER----- */
 
 .header {
@@ -97,6 +101,11 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
   cursor: pointer;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  background-color: #188ce8;
 }
 
 /* ----CHARACTERISTIC---- */
@@ -185,4 +194,40 @@ body {
 .tel:hover,
 .tel:focus {
   color: rgba(255, 255, 255, 1);
+}
+
+/* -----PORTFOLIO----- */
+
+.section-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+
+.section-button:focus,
+.section-button:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
 }
